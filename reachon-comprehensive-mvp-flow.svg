@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200">
+    <style>
+        .main-box { fill: #4a90e2; stroke: #333; stroke-width: 2; }
+        .decision { fill: #50C878; stroke: #333; stroke-width: 2; }
+        .sub-box { fill: #82ca9d; stroke: #333; stroke-width: 1; }
+        .moderation { fill: #FF4444; stroke: #333; stroke-width: 2; }
+        .text { font-family: Arial, sans-serif; font-size: 12px; fill: white; }
+        .arrow { marker-end: url(#arrowhead); stroke: #666; stroke-width: 2; }
+    </style>
+
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+
+    <!-- User Journey -->
+    <rect x="700" y="50" width="200" height="50" class="main-box" rx="5"/>
+    <text x="800" y="80" text-anchor="middle" class="text">User Landing Page</text>
+
+    <!-- User Type Decision -->
+    <polygon points="750,130 850,130 800,180" class="decision"/>
+    <text x="800" y="160" text-anchor="middle" class="text">User Type Selection</text>
+
+    <!-- Authentication Paths -->
+    <rect x="500" y="220" width="150" height="50" class="main-box" rx="5"/>
+    <text x="575" y="250" text-anchor="middle" class="text">New User Sign Up</text>
+
+    <rect x="850" y="220" width="150" height="50" class="main-box" rx="5"/>
+    <text x="925" y="250" text-anchor="middle" class="text">Existing User Login</text>
+
+    <!-- Profile Creation -->
+    <rect x="500" y="320" width="150" height="50" class="main-box" rx="5"/>
+    <text x="575" y="350" text-anchor="middle" class="text">Basic Profile</text>
+
+    <!-- Account Type -->
+    <polygon points="550,400 600,450 550,500 500,450" class="decision"/>
+    <text x="550" y="455" text-anchor="middle" class="text">Account Type</text>
+
+    <!-- Business Path -->
+    <rect x="350" y="550" width="200" height="50" class="main-box" rx="5"/>
+    <text x="450" y="580" text-anchor="middle" class="text">Company Profile Creation</text>
+
+    <rect x="350" y="650" width="200" height="50" class="main-box" rx="5"/>
+    <text x="450" y="680" text-anchor="middle" class="text">Verification Process</text>
+
+    <!-- Core Features -->
+    <rect x="700" y="550" width="200" height="50" class="main-box" rx="5"/>
+    <text x="800" y="580" text-anchor="middle" class="text">Main Feed</text>
+
+    <!-- Feature Branches -->
+    <rect x="200" y="700" width="250" height="50" class="main-box" rx="5"/>
+    <text x="325" y="730" text-anchor="middle" class="text">Posts & Feeds</text>
+
+    <rect x="500" y="700" width="250" height="50" class="main-box" rx="5"/>
+    <text x="625" y="730" text-anchor="middle" class="text">Business News</text>
+
+    <rect x="800" y="700" width="250" height="50" class="main-box" rx="5"/>
+    <text x="925" y="730" text-anchor="middle" class="text">Company Listing</text>
+
+    <rect x="1100" y="700" width="250" height="50" class="main-box" rx="5"/>
+    <text x="1225" y="730" text-anchor="middle" class="text">Programs</text>
+
+    <!-- Subfeatures -->
+    <rect x="100" y="800" width="150" height="40" class="sub-box" rx="5"/>
+    <text x="175" y="825" text-anchor="middle" class="text">Photo Posts</text>
+
+    <rect x="275" y="800" width="150" height="40" class="sub-box" rx="5"/>
+    <text x="350" y="825" text-anchor="middle" class="text">Short Videos</text>
+
+    <rect x="450" y="800" width="150" height="40" class="sub-box" rx="5"/>
+    <text x="525" y="825" text-anchor="middle" class="text">Q&A Help</text>
+
+    <rect x="550" y="800" width="150" height="40" class="sub-box" rx="5"/>
+    <text x="625" y="825" text-anchor="middle" class="text">50-sec Reels</text>
+
+    <rect x="725" y="800" width="150" height="40" class="sub-box" rx="5"/>
+    <text x="800" y="825" text-anchor="middle" class="text">Startup Updates</text>
+
+    <rect x="900" y="800" width="150" height="40" class="sub-box" rx="5"/>
+    <text x="975" y="825" text-anchor="middle" class="text">Company Details</text>
+
+    <rect x="1075" y="800" width="150" height="40" class="sub-box" rx="5"/>
+    <text x="1150" y="825" text-anchor="middle" class="text">Funding Info</text>
+
+    <rect x="1250" y="800" width="150" height="40" class="sub-box" rx="5"/>
+    <text x="1325" y="825" text-anchor="middle" class="text">Team Structure</text>
+
+    <!-- Moderation -->
+    <rect x="700" y="950" width="200" height="50" class="moderation" rx="5"/>
+    <text x="800" y="980" text-anchor="middle" class="text">Content Moderation</text>
+
+    <rect x="700" y="1050" width="200" height="50" class="moderation" rx="5"/>
+    <text x="800" y="1080" text-anchor="middle" class="text">Account Restrictions</text>
+
+    <!-- Connectors -->
+    <line x1="800" y1="100" x2="800" y2="130" class="arrow"/>
+    <line x1="750" y1="180" x2="575" y2="220" class="arrow"/>
+    <line x1="850" y1="180" x2="925" y2="220" class="arrow"/>
+    <line x1="575" y1="270" x2="575" y2="320" class="arrow"/>
+    <line x1="575" y1="370" x2="550" y2="400" class="arrow"/>
+    <line x1="550" y1="450" x2="450" y2="550" class="arrow"/>
+    <line x1="450" y1="600" x2="450" y2="650" class="arrow"/>
+    <line x1="550" y1="450" x2="800" y2="550" class="arrow"/>
+    <line x1="800" y1="600" x2="325" y2="700" class="arrow"/>
+    <line x1="800" y1="600" x2="625" y2="700" class="arrow"/>
+    <line x1="800" y1="600" x2="925" y2="700" class="arrow"/>
+    <line x1="800" y1="600" x2="1225" y2="700" class="arrow"/>
+    <line x1="325" y1="750" x2="175" y2="800" class="arrow"/>
+    <line x1="325" y1="750" x2="350" y2="800" class="arrow"/>
+    <line x1="325" y1="750" x2="525" y2="800" class="arrow"/>
+    <line x1="625" y1="750" x2="625" y2="800" class="arrow"/>
+    <line x1="625" y1="750" x2="800" y2="800" class="arrow"/>
+    <line x1="925" y1="750" x2="975" y2="800" class="arrow"/>
+    <line x1="925" y1="750" x2="1150" y2="800" class="arrow"/>
+    <line x1="925" y1="750" x2="1325" y2="800" class="arrow"/>
+    <line x1="325" y1="750" x2="800" y2="950" class="arrow"/>
+    <line x1="800" y1="1000" x2="800" y2="1050" class="arrow"/>
+</svg>

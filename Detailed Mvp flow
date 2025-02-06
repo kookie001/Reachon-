@@ -1,0 +1,47 @@
+#mermaid code - https://claude.site/artifacts/176f9c97-1225-4c25-bf07-94baa45a82a3
+Use this code to generate detailed Mvp flow using any Mermaid Editor 
+
+flowchart TD
+    A[User Landing] --> B{User Type}
+    B -->|New User| C[Sign Up]
+    B -->|Existing User| D[Login]
+    
+    C --> E[Basic Profile Creation]
+    E --> F{Account Type}
+    
+    F -->|Founder/Business| G[Complete Company Profile]
+    G --> H[Verification Process]
+    H -->|Required| I[LinkedIn/PAN Verification]
+    
+    F -->|Regular User| J[Main Feed]
+    I --> J
+    D --> J
+    
+    J --> K{Core Features}
+    
+    K --> L[Posts & Feeds]
+    L --> L1[Photo Posts]
+    L --> L2[Short Videos]
+    L --> L3[Q&A Help]
+    
+    K --> M[Business News]
+    M --> M1[50-sec Reel Format]
+    M --> M2[Startup Updates]
+    
+    K --> N[Company Listing]
+    N --> N1[Company Details]
+    N --> N2[Funding Info]
+    N --> N3[Team Structure]
+    
+    K --> O[Programs]
+    O --> O1[Free Programs]
+    O --> O2[Paid Programs]
+    
+    P[Content Moderation]
+    L1 --> P
+    L2 --> P
+    L3 --> P
+    
+    R[Account Restrictions]
+    P -->|Inappropriate Content| R
+    R -->|After 2 Strikes| S[Account Deactivation]

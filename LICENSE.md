@@ -1,8 +1,8 @@
 # Reachon Software License Agreement
 
 ## 1. Definitions
-- **"Company"** means Reachon
-- **"Client"** means the entity acquiring the software
+- **"Company"** means Lucky 
+- **"Client"** means the entity acquiring the software (Reachon)
 - **"Software"** refers to the Reachon MVP platform
 
 ## 2. License Grant
